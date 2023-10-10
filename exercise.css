@@ -1,0 +1,37 @@
+/* CSS in exercise.css */
+
+.carousel-container {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    padding: 20px; /* Add padding for consistent alignment */
+    display: flex; /* Center horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.carousel-item ul {
+    padding: 0; /* Remove default padding for the ul */
+}
+
+.carousel-item li {
+    text-align: left; /* Align the text to the left within list items */
+    margin: 5px 0; /* Add vertical margin for spacing between list items */
+}
+
+/* Additional styling if needed */
+/* Add your additional CSS rules here */
